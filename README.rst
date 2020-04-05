@@ -1,18 +1,18 @@
-.. image:: https://img.shields.io/github/issues-pr/C0C0AN/ALPACA.svg
+.. image:: https://img.shields.io/github/issues-pr/PeerHerholz/auditory_cortex_parcellations_dash.svg
     :alt: PRs
-    :target: https://github.com/C0C0AN/ALPACA/pulls/
+    :target: https://github.com/PeerHerholz/auditory_cortex_parcellations_dash/pulls/
 
-.. image:: https://img.shields.io/github/contributors/C0C0AN/ALPACA.svg
+.. image:: https://img.shields.io/github/contributors/PeerHerholz/auditory_cortex_parcellations_dash.svg
     :alt: Contributors
-    :target: https://GitHub.com/C0C0AN/ALPACA/graphs/contributors/
+    :target: https://GitHub.com/PeerHerholz/auditory_cortex_parcellations_dash/graphs/contributors/
 
-.. image:: https://github-basic-badges.herokuapp.com/commits/C0C0AN/ALPACA.svg
+.. image:: https://github-basic-badges.herokuapp.com/commits/PeerHerholz/auditory_cortex_parcellations_dash.svg
     :alt: Commits
-    :target: https://github.com/C0C0AN/ALPACA/commits/master
+    :target: https://github.com/PeerHerholz/auditory_cortex_parcellations_dash/commits/master
 
-.. image:: http://hits.dwyl.io/C0C0AN/ALPACA.svg
+.. image:: http://hits.dwyl.io/PeerHerholz/auditory_cortex_parcellations_dash.svg
     :alt: Hits
-    :target: http://hits.dwyl.io/C0C0AN/ALPACA
+    :target: http://hits.dwyl.io/PeerHerholz/auditory_cortex_parcellations_dash
 
 .. image:: https://img.shields.io/badge/License-BSD%203--Clause-blue.svg
     :alt: License
