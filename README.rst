@@ -22,8 +22,8 @@
     :alt: support_conp
     :target: https://conp.ca/
 
-
-# Auditory cortex localizations and parcellations (a Dash application)
+Auditory cortex localizations and parcellations (a Dash application)
+====================================================================
 
 
 This site is an effort to make scientific data (in this case, auditory cortex localizations and parcellations)
@@ -32,16 +32,19 @@ more **standardised**, **accessible**, **interactive**, **useful** and **open**.
 It is part of the "Automatic Loclization and Parcellation of Auditory Cortex Areas (ALPACA)" toolbox, summarizing the diverse approaches and resulting regions of interest along with their locations and metadata found in previous and current research. 
 It furthermore allows the upload of parcellations that are not indexed and will serve as a tool for meta-analytic approaches.
 
-![alt text](https://github.com/C0C0AN/ALPACA/blob/master/alpaca/resources/img/ALPACA_logo.png)
-
+.. image:: https://github.com/C0C0AN/ALPACA/blob/master/alpaca/resources/img/ALPACA_logo.png
+    :align: center
+    :scale: 30 %
+    :alt: alpaca_logo
 
 How to report errors
 --------------------
-Running into any bugs :beetle:? Check out the `open issues <https://github.com/PeerHerholz/auditory_cortex_parcellations_dash/issues>_` to see if we're already working on it. If not, open up a new issue and we will check it out when we can!
+Running into any bugs :beetle:? Check out the `open issues <https://github.com/PeerHerholz/auditory_cortex_parcellations_dash/issues>`_ to see if we're already working on it. If not, open up a new issue and we will check it out when we can!
 
 How to contribute
 -----------------
-Thank you for considering contributing to our project! Before getting involved, please review our [Code of Conduct](https://github.com/PeerHerholz/auditory_cortex_parcellations_dash/blob/master/CODE_OF_CONDUCT.md). Next, you can review  [open issues](https://github.com/PeerHerholz/auditory_cortex_parcellations_dash/issues) that we are looking for help with. If you submit a new pull request please be as detailed as possible in your comments. Please also have a look at our [contribution guidelines](https://github.com/PeerHerholz/auditory_cortex_parcellations_dash/blob/master/CONTRIBUTING.md).
+Thank you for considering contributing to our project! Before getting involved, please review our `Code of Conduct <https://github.com/PeerHerholz/auditory_cortex_parcellations_dash/blob/master/CODE_OF_CONDUCT.md>`_. Next, you can review  `open issues <https://github.com/PeerHerholz/auditory_cortex_parcellations_dash/issues>`_ that we are looking for help with. If you submit a new pull request please be as detailed as possible in your comments. Please also have a look at our `contribution guidelines <https://github.com/PeerHerholz/auditory_cortex_parcellations_dash/blob/master/CONTRIBUTING.md>`_.
+
 
 Acknowledgements
 ----------------
