@@ -23,7 +23,7 @@ nav_bar_and_content_div = html.Div(children=[
                     dbc.Row(
                         [
                             dbc.Col(html.Img(id='logo', src='assets/logo_jsheunis_3.jpeg', height="32px", className="avatar")),
-                            dbc.Col(dbc.NavbarBrand("rtfMRI Methods", className="ml-2")),
+                            dbc.Col(dbc.NavbarBrand("Auditory Cortex Parcellations", className="ml-2")),
                         ],
                         align="center",
                         no_gutters=True,
