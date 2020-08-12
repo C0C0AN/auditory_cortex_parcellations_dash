@@ -10,7 +10,7 @@ import urllib.parse
 import json
 
 # Get data
-filename = 'assets/rtfMRI_methods_review_included_studies_procsteps.txt'
+filename = 'assets/auditory-cortex_review_included_studies_procsteps.txt'
 df_studies = pd.read_csv(filename, sep='\t', lineterminator='\r')
 df_studies = df_studies.dropna(axis='columns')
 
@@ -72,10 +72,10 @@ heading = html.Div(
 
 main_md = dcc.Markdown('''
 
-The purpose of this section is to allow you to report the methods of your real-time fMRI neurofeedback study in detail.
+The purpose of this section is to allow you to report the methods of your auditory cortex study in detail.
 The use of validated text fields, dropdowns and checkboxes makes this process quick and intuitive, while improving standardisation.
 
-This section still needs some work. Currently, the entry fields (and their options) below are populated from the [main study data](https://github.com/jsheunis/quality-and-denoising-in-rtfmri-nf).
+This section still needs some work. Currently, the entry fields (and their options) below are populated from the [main study data]().
 This will be updated in future so as to allow a wider variety of input options. 
 
 When you click on the `Submit` button, it will download an admittedly badly formatted `csv`-file containing your input data.
@@ -119,7 +119,7 @@ section1 = dbc.Row(
                     dbc.Label("Article Title", html_for="article-title"),
                     dbc.Textarea(
                         id="article-title",
-                        placeholder="e.g. Quality and denoising in real-time fMRI neurofeedback: a methods review",
+                        placeholder="e.g. The Auditory Cortex: a parcellation review",
                     ),
                 ]
             ),
