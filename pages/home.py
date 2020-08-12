@@ -7,7 +7,7 @@ card_browse = [
         [
             html.H5("Browse", className="card-title"),
             html.P(
-                "This site contains a list of 128 recent studies in the field of real-time fMRI neurofeedback. Their methods were coded into a common structure, and this site allows you to explore these methods.",
+                "This site contains a list of diverse auditory cortex parcellation derived from a multitude of modalities and features. Their methods and parcels were coded into a common structure, and this site allows you to explore them.",
                 className="card-text",
             ),
             dbc.Button("Browse now", color="light", href="/pages/page1", external_link=True),
@@ -20,7 +20,7 @@ card_visualize = [
         [
             html.H5("Visualize", className="card-title"),
             html.P(
-                "Want to see which methods are the most popular? Or how many studies reported implementing your favorite preprocessing step? Here you can view and interact with plots of the data.",
+                "Want to see which methods are the most popular? Or how many studies reported implementing your favorite approach? Here you can view and interact with plots of the data.",
                 className="card-text",
             ),
             dbc.Button("Visualize now", color="light", href="/pages/page2", external_link=True),
@@ -33,7 +33,7 @@ card_submit = [
         [
             html.H5("Submit", className="card-title"),
             html.P(
-                "Have you conducted a real-time fMRI study? Head to the submit page to report your methods. This will create a machine readable methods summary and a human readable methods section for your article.",
+                "Have you conducted a study focusing auditory cortex parcellations or is something missing? Head to the submit page to report your methods or additional ones missed so far. This will create a machine readable methods summary and a human readable methods section for your article.",
                 className="card-text",
             ),
             dbc.Button("Submit now", color="light", href="/pages/page3", external_link=True),
@@ -46,7 +46,7 @@ card_submit = [
 layout = html.Div([
 
     html.H1(
-        children='Real-time fMRI Neurofeedback Methods',
+        children='Auditory Cortex Parcellations',
         style={
             'textAlign': 'center',
         }
