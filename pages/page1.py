@@ -8,7 +8,7 @@ import numpy as np
 from app import app
 
 # Get data
-filename = 'assets/rtfMRI_methods_review_included_studies_procsteps.txt'
+filename = 'assets/auditory-cortex_included_studies_procsteps.txt'
 df_studies = pd.read_csv(filename, sep='\t', lineterminator='\r')
 df_studies = df_studies.dropna(axis='columns')
 df_plot = df_studies.copy()
@@ -57,10 +57,10 @@ for index, row in df_studies.iterrows():
 
 main_md = dcc.Markdown('''
 
-The table below contains a list of 128 real-time fMRI neurofeedback studies coded for standard quality control and denoising processing steps.
+The table below contains a list of  studies focusing auditory cortex parcellations coded for approach, field strength and resources.
 This section allows you to filter through these studies to find what you are looking for. You can click on the `DOI` link to view the article online.
-For more background and information on how this coded data were generated,see the [preprint](https://osf.io/xubhq/)
-and [Github repository](https://github.com/jsheunis/quality-and-denoising-in-rtfmri-nf) of this work.    
+For more background and information on how this coded data were generated,see the 
+[Github repository](https://github.com/C0C0AN/auditory_cortex_parcellations_dash) of this work.    
 
 ''')
 
