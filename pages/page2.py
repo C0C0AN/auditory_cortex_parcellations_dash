@@ -8,7 +8,7 @@ import pandas as pd
 from app import app
 
 # Get data
-filename = 'assets/rtfMRI_methods_review_included_studies_procsteps.txt'
+filename = 'assets/auditory-cortex_review_included_studies_procsteps.txt'
 df_studies = pd.read_csv(filename, sep='\t', lineterminator='\r')
 df_studies = df_studies.dropna(axis='columns')
 df_plot = df_studies.copy()
@@ -59,15 +59,15 @@ yy2 = srs2.values
 
 main_md = dcc.Markdown('''
 
-In this section you can visualize and interact with the coded data from 128 real-tme fMRI neurofeedback studies.
+In this section you can visualize and interact with the coded data from  studies focusing on auditory cortex parcellations.
 There are two plots below, for which you can display data of a method selected from the respective dropdowns.
 
-Say you want to view the distribution of scanner vendors used in these studies, select the `Vendor` option for the plot on the left hand side.
-You can then *hover* over each of the bars in the plot to see the actual number of studies per vendor, e.g. 18 studies used a Philips scanner.
+Say you want to view the distribution of approaches used in these studies, select the `Approach` option for the plot on the left hand side.
+You can then *hover* over each of the bars in the plot to see the actual number of studies per approach, e.g.  studies used a structural approach.
 You can also *click* on the bar to display these specific studies in a table below the plots.
 
-Say, now, that you want to see which software packages were used for each of the vendors, select the `Software` option for the plot on the right hand side.
-By hovering over each bar on the `Vendor` plot, the `Software` plot will update with the relevant distribution.       
+Say, now, that you want to see how many parcels were generated within each approach, select the `Parcels` option for the plot on the right hand side.
+By hovering over each bar on the `Approach` plot, the `Parcels` plot will update with the relevant distribution.       
 
 ''')
 
@@ -116,7 +116,7 @@ layout = html.Div([
                         [
                             dbc.Col(html.H6(
                                 id='graph-1-title',
-                                children='Vendor (hover to show options of second feature; click to display studies)',
+                                children='Approach (hover to show options of second feature; click to display studies)',
                                 style={
                                     'textAlign': 'center',
                                 }),
@@ -124,7 +124,7 @@ layout = html.Div([
                             ),
                             dbc.Col(html.H6(
                                 id='graph-2-title',
-                                children='Field strength options when Vendor = Siemens',
+                                children='Field strength options when Approach = structural',
                                 style={
                                     'textAlign': 'center',
                                 }),
