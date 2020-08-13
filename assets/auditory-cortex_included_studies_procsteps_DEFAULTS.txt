@@ -1,1 +1,2 @@
 author	vendor	magnet	software	stc	mc	ss	dr	hmp	ts	ff	or	droi	resp	doi
+Alegria et al., (2017)	GE	3T	AFNI	DNR	Y	DNR	DNR	DNR	DNR	DNR	DNR	Y	ROI DIFF	10.1002/hbm.23584
