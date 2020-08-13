@@ -8,7 +8,7 @@ import numpy as np
 from app import app
 
 # Get data
-filename = 'assets/auditory-cortex_included_studies_procsteps.txt'
+filename = 'assets/auditory-cortex_review_included_studies_procsteps.txt'
 df_studies = pd.read_csv(filename, sep='\t', lineterminator='\r')
 #df_studies = df_studies.dropna(axis='columns')
 df_plot = df_studies.copy()
