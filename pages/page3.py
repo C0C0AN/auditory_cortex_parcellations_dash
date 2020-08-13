@@ -12,7 +12,7 @@ import json
 # Get data
 filename = 'assets/auditory-cortex_review_included_studies_procsteps.txt'
 df_studies = pd.read_csv(filename, sep='\t', lineterminator='\r')
-df_studies = df_studies.dropna(axis='columns')
+#df_studies = df_studies.dropna(axis='columns')
 
 colnames = {
     'vendor': 'Vendor',
